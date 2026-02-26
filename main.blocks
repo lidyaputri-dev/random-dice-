@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="wrkJ|(s~ZP3}YRh|7Avx">list</variable><variable id="=SSwA|b1fl6]M/|2jB|S">myImage</variable></variables><block type="pxt-on-start" id="}6O}Evc4cTSn`1ZI++Sj" x="123" y="-511"><statement name="HANDLER"><block type="function_call" id="a9rr/5i]+1|Go9xV1+B7"><mutation name="setdicepatterns" functionid="=t|=/2}3^S-F.]`/l[aD"></mutation><next><block type="function_call" id="Q;14-QU{_#eBQHP:_Y4C"><mutation name="Rolldice" functionid="x4IBJk$z:rM]:g4jn{e`"></mutation></block></next></block></statement></block><block type="function_definition" id="vjh?L/jLWJQ^8~(At-o:" x="537" y="-287"><mutation name="Rolldice" functionid="x4IBJk$z:rM]:g4jn{e`"></mutation><field name="function_name">Rolldice</field><statement name="STACK"><block type="device_show_image_offset" id="|8O:)*ho2fgnb0NSF=_-"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="lists_index_get" id="hch}8g2dfVInGGR*~s)$"><value name="LIST"><block type="variables_get" id="yDeG/#yoU7M_WsY}(Wtk"><field name="VAR" id="wrkJ|(s~ZP3}YRh|7Avx">list</field></block></value><value name="INDEX"><shadow type="math_number" id="X`U/GN={!pEN+DDI{CQX"><field name="NUM">0</field></shadow><block type="device_random" id="vp8Z[v|AMGfP(=]C:165"><value name="min"><shadow type="math_number" id="EY{Zr@1u|g?]%^!#0t0f"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="*CrEtvMMG0Ql4qX04hJ6"><field name="NUM">5</field></shadow></value></block></value></block></value><value name="offset"><shadow type="math_number" id="U7],k`V.tqry#kR$ptm,"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="Q||#~2t?!_FzKx2GX][X"><field name="NUM">400</field></shadow></value></block></statement></block><block type="device_gesture_event" id="5PsT7DEJULc2XE.x(@p}" x="-17" y="-236"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="function_call" id="GY_m8R:Ak|*FM$+h%QlS"><mutation name="Rolldice" functionid="x4IBJk$z:rM]:g4jn{e`"></mutation></block></statement></block><block type="function_definition" id="o=KT[]7WclB8hT^UTzYK" x="0" y="0"><mutation name="setdicepatterns" functionid="=t|=/2}3^S-F.]`/l[aD"></mutation><field name="function_name">setdicepatterns</field><statement name="STACK"><block type="variables_set" id="SOh4=dqTkTmKiZ0sPopK"><field name="VAR" id="wrkJ|(s~ZP3}YRh|7Avx">list</field><value name="VALUE"><block type="lists_create_with" id="Hnx,BWCst%D^TUy)N)qR" inline="false"><mutation items="6" horizontalafter="3"></mutation><value name="ADD0"><block type="device_build_image" id="a!uwS6TtcIp*FH?S(oIi"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="ADD1"><block type="device_build_image" id="!2A1eCDv5OHt1`/gfg/@"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . . . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD2"><block type="device_build_image" id="pVme7*[}c|5?N$v4?m;i"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD3"><block type="device_build_image" id="S.r8/j]NqOv9t/59(%~K"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD4"><block type="device_build_image" id="za9kj*ZB^9WGu{SdW$T$"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD5"><block type="device_build_image" id="5Vlgiwa_WH*62!R;5j`M"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . . . . .
+        `</field></block></value></block></value></block></statement></block><block type="variables_get" id="h.c/7/lO/nrw5#er]oGE" disabled-reasons="pxt_automatic_disabled" x="344" y="287"><field name="VAR" id="wrkJ|(s~ZP3}YRh|7Avx">list</field></block></xml>
